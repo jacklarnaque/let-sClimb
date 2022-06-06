@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Association organisant des événements sportifs autour de l'éscalade">
+  <title>Lets's Climb!</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8f9f309d6f.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Zen+Maru+Gothic:wght@300&display=swap"
+    rel="stylesheet">
+
+
+
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Event.html">Evénements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Acceuil.html">Acceuil</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+
+  <h1>Liste des Evénements</h1>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Cat</th>
+        <th scope="col">Région</th>
+        <th scope="col">Nom événement</th>
+        <th scope="col">Date</th>
+        <th>Lien event</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>BRIANCON SERRE CHEVALIER</td>
+        <td>Coupe de France de difficulté jeunes et vétéran 2022</td>
+        <td>20/07/2022</td>
+        <th><a href="https://www.ffme.fr/competition/fiche/7812/"><i class="fa-solid fa-hand-point-right"></i></a></th>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>MONTMARTIN/MER</td>
+        <td>Championnat de France U12/U14 2022</td>
+        <td>03/07/2022</td>
+        <th><a href="https://www.ffme.fr/competition/fiche/7904/"><i class="fa-solid fa-hand-point-right"></i></a></th>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>LE POUZIN</td>
+        <td>Championnat de France de difficulté jeunes 2022</td>
+        <td>12/06/2022</td>
+        <th><a href="https://www.ffme.fr/competition/fiche/7903/"><i class="fa-solid fa-hand-point-right"></i></a>
+        </th>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>MORLAIX</td>
+        <td>Championnat de France de difficulté jeunes 2022</td>
+        <td>12/06/2022</td>
+        <th><a href="https://www.ffme.fr/competition/fiche/7903/"><i class="fa-solid fa-hand-point-right"></i></a>
+        </th>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>LE POUZIN</td>
+        <td>Championnat de France de difficulté jeunes 2022</td>
+        <td>12/06/2022</td>
+        <th><a href="https://www.ffme.fr/competition/fiche/7903/"><i class="fa-solid fa-hand-point-right"></i></a>
+        </th>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>LE POUZIN</td>
+        <td>Championnat de France de difficulté jeunes 2022</td>
+        <td>12/06/2022</td>
+        <th><a href="https://www.ffme.fr/competition/fiche/7903/"><i class="fa-solid fa-hand-point-right"></i></a>
+        </th>
+      </tr>
+    </tbody>
+  </table>  
+  
+  <div class="footerIcons">
+    <a class="btn " href="Contact.html"><i class="fa-solid fa-envelope"></i></a>
+    <!-- modal bootstrap start -->
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#phoneDisplay" data-bs-whatever="@mdo"><i
+        class="fa-solid fa-mobile"></i></button>
+
+    <div class="modal fade" id="phoneDisplay" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" i>🇫🇷 +330785447633</h5>
+            <button type="button" class="btn" onclick="copy()"><i class="fa-solid fa-clipboard"></i></button>
+            <!-- copy number buttun -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn " href="https://www.facebook.com/FFMontagneEscalade"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+
+    <!-- ici footer -->
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="text-muted">© Grousset.philippe-2022</span>
+      </div>
+  </footer>
+  
+
+</body>
+
+</html>
