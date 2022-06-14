@@ -17,6 +17,7 @@ phoneDisplay.addEventListener('show.bs.modal', event => {
 
 
 function copy() {
+  
     /* Save value of myText to input variable */
     var text = +'00330785447633'
    
